@@ -1,0 +1,34 @@
+:root {
+    --white-color:#fff;
+    --black-color: #000;
+    --text-color: #333333;
+    --primary-color: #EC1C24;
+    --second-primary-color: #F58220;
+    --border-color: #dbdbdb;
+    --color-info-dark: #7d8da1;
+    --color-info-light: #dce1eb;
+    --color-light: rgba(132,139,200,0.18);
+    --box-shadow-primary: 0 1px 2px #e0e0e0;
+    --box-shadow: 0 2rem 3rem var(--color-light);
+
+    --header-nav: 32px;
+    --header-search: 85px;
+    --header-category: calc(var(--header-search) - var(--header-nav));
+}
+
+* {
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    /* 10px EX: 1.2rem = 12px; 1.4rem = 14px*/
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
